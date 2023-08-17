@@ -31,7 +31,6 @@ public class MojaTablica implements Zbior {
     //zwracanie ile jest elementow
     @Override
     public int ile() {
-        System.out.println(pozycja);
         return pozycja;
     }
     //wyswietlanie wszystkich elementow

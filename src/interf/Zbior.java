@@ -1,8 +1,8 @@
 package interf;
+public interface Zbior{
+    boolean nalezy(int item);
+    void dodaj(int item);
+    int ile();
+    void wyswietl();
 
-public interface Zbior {
-    public boolean nalezy(int item);
-    public void dodaj(int item);
-    public int ile();
-    public void wyswietl();
 }
