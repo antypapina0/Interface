@@ -1,7 +1,11 @@
 import interf.Zbior;
+// implements zbior to zaimplementowanie metod z tamtego interfacu, wszystkie musza byc tutaj zawarte jak uzywamy implements
+//MojaTablica to nazwa klasy
 
 public class MojaTablica implements Zbior {
+    //prywatna zmienna int o nazwie mojeElementy, jest tablica poniewaz ma [], cyzli moze miec wiele liczb uzytywych
     private int[] mojeElementy;
+    //to jest zmienna typu int o nazwie pozycja
     private int pozycja;
 
     //konstruktor
@@ -13,6 +17,7 @@ public class MojaTablica implements Zbior {
     //metoda do sprawdzenie czy item jest w tablicy
     @Override
     public boolean nalezy(int item) {
+        //
         for (int i = 0; i < pozycja; i++) {
             if (mojeElementy[i] == item) {
                 return true;
